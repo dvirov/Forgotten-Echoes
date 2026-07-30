@@ -1,0 +1,28 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "hidefiles.configurationType": "global",
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            ".vscode/": true,
+            ".gitattributes": true,
+            "README.md": true,
+            "Better than Sniffers-rp/pack.png": true,
+            "Better than Sniffers-dp/pack.png": true,
+            "git/": true,
+            "template.code-workspace": true,
+            "ars_hexery-dp/data/ars_hexery/function/string_manipulation/": true,
+            "echos.code-workspace": true,
+            "forgotten_echoes.code-workspace": true
+        },
+        "hidefiles.selectedProfile": "Strict"
+    }
+}

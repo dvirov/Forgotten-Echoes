@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": "Echo Bell",
+              "item_model": "bell",
+                "custom_data":{
+                    "id":"echo_bell"
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 3,
+                  "sound": "minecraft:block.bell.resonate",
+                  "animation": "none",
+                  "has_consume_particles": false
+                },
+                "rarity": "uncommon",
+                "!minecraft:food": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

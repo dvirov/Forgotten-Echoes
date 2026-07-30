@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "custom_data": {
+                  "id": "item_id"
+                },
+                "!minecraft:food": {},
+                "minecraft:piercing_weapon": {
+                  "deals_knockback": false
+                },
+                "minecraft:enchantments": {
+                  "forgotten_echoes:left_click_detection": 1
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:enchantments",
+                    "minecraft:rarity"
+                  ]
+                },
+                "minecraft:enchantment_glint_override": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

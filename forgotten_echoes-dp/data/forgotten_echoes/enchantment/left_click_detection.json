@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "left click"
+  },
+  "effects": {
+    "minecraft:post_piercing_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "forgotten_echoes:folder/item_left_click"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "minecraft:poisonous_potato",
+  "weight": 1
+}

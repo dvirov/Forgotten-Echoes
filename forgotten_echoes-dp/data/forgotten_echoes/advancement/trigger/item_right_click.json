@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "use": {
+      "conditions": {
+        "player": [],
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {
+              "id": "item_id"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "rewards": {
+    "function": "forgotten_echoes:folder/item_right_click"
+  }
+}

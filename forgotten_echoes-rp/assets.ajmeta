@@ -1,0 +1,34 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"aj:echo_bell": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/echo_bell/bell_piece.json",
+				"assets/aj/items/blueprint/echo_bell/bell_piece2.json",
+				"assets/aj/items/blueprint/echo_bell/bell_piece3.json",
+				"assets/aj/items/blueprint/echo_bell/bell_piece4.json",
+				"assets/aj/items/blueprint/echo_bell/bell_piece5.json",
+				"assets/aj/items/blueprint/echo_bell/bell_piece6.json",
+				"assets/aj/items/blueprint/echo_bell/bell_piece7.json",
+				"assets/aj/items/blueprint/echo_bell/bell_piece8.json",
+				"assets/aj/items/blueprint/echo_bell/bone1.json",
+				"assets/aj/items/blueprint/echo_bell/bone2.json",
+				"assets/aj/items/blueprint/echo_bell/bone3.json",
+				"assets/aj/items/blueprint/echo_bell/glowing_stuff.json",
+				"assets/aj/models/blueprint/echo_bell/bell_piece.json",
+				"assets/aj/models/blueprint/echo_bell/bell_piece2.json",
+				"assets/aj/models/blueprint/echo_bell/bell_piece3.json",
+				"assets/aj/models/blueprint/echo_bell/bell_piece4.json",
+				"assets/aj/models/blueprint/echo_bell/bell_piece5.json",
+				"assets/aj/models/blueprint/echo_bell/bell_piece6.json",
+				"assets/aj/models/blueprint/echo_bell/bell_piece7.json",
+				"assets/aj/models/blueprint/echo_bell/bell_piece8.json",
+				"assets/aj/models/blueprint/echo_bell/bone1.json",
+				"assets/aj/models/blueprint/echo_bell/bone2.json",
+				"assets/aj/models/blueprint/echo_bell/bone3.json",
+				"assets/aj/models/blueprint/echo_bell/glowing_stuff.json"
+			]
+		}
+	}
+}
