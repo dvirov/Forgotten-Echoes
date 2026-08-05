@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "forgotten_echoes:test",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 25,
+      "separation": 21 ,
+      "salt": 764623470
+    }
+}

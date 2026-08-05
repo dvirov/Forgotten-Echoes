@@ -29,6 +29,35 @@
 				"assets/aj/models/blueprint/echo_bell/bone3.json",
 				"assets/aj/models/blueprint/echo_bell/glowing_stuff.json"
 			]
+		},
+		"aj:ghost_villager_a": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/ghost_villager_a/arm1_l.json",
+				"assets/aj/items/blueprint/ghost_villager_a/arm1_r.json",
+				"assets/aj/items/blueprint/ghost_villager_a/arm_l.json",
+				"assets/aj/items/blueprint/ghost_villager_a/arm_r.json",
+				"assets/aj/items/blueprint/ghost_villager_a/body.json",
+				"assets/aj/items/blueprint/ghost_villager_a/bodywear.json",
+				"assets/aj/items/blueprint/ghost_villager_a/eyelids.json",
+				"assets/aj/items/blueprint/ghost_villager_a/head.json",
+				"assets/aj/items/blueprint/ghost_villager_a/headwear.json",
+				"assets/aj/items/blueprint/ghost_villager_a/hovering_legs_ghost_stuff.json",
+				"assets/aj/items/blueprint/ghost_villager_a/hovering_legs_ghost_stuff1.json",
+				"assets/aj/items/blueprint/ghost_villager_a/nose.json",
+				"assets/aj/models/blueprint/ghost_villager_a/arm1_l.json",
+				"assets/aj/models/blueprint/ghost_villager_a/arm1_r.json",
+				"assets/aj/models/blueprint/ghost_villager_a/arm_l.json",
+				"assets/aj/models/blueprint/ghost_villager_a/arm_r.json",
+				"assets/aj/models/blueprint/ghost_villager_a/body.json",
+				"assets/aj/models/blueprint/ghost_villager_a/bodywear.json",
+				"assets/aj/models/blueprint/ghost_villager_a/eyelids.json",
+				"assets/aj/models/blueprint/ghost_villager_a/head.json",
+				"assets/aj/models/blueprint/ghost_villager_a/headwear.json",
+				"assets/aj/models/blueprint/ghost_villager_a/hovering_legs_ghost_stuff.json",
+				"assets/aj/models/blueprint/ghost_villager_a/hovering_legs_ghost_stuff1.json",
+				"assets/aj/models/blueprint/ghost_villager_a/nose.json"
+			]
 		}
 	}
 }
