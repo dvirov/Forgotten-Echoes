@@ -12,7 +12,7 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:ghost_villager_a"
-data modify storage animated_java:temp entry.data.rig_hash set value "87512afa2164a327f50e853682733231a08de586bfce519cdf9786940c80de10"
+data modify storage animated_java:temp entry.data.rig_hash set value "822db7ed374e707cbae89903f4ac9bc8e298e52fc6a3bba0d2379ed5119aa04b"
 tp @s ~ ~ ~ ~ ~
 summon minecraft:interaction ^0 ^0.1875 ^0 { Tags:["","aj.ghost_villager_a.entity","aj.ghost_villager_a.interaction","aj.ghost_villager_a.interaction.interaction","aj.ghost_villager_a.node","aj.ghost_villager_a.node.interaction","aj.global.entity","aj.global.interaction","aj.global.node","aj.global.node.interaction","aj.global.root.child","aj.global.root.child.interaction","aj.new"], response: false, width: 0.5f, height: 1.75f, }
 execute as @n[ type=minecraft:interaction, tag=aj.ghost_villager_a.interaction.interaction, tag=aj.new, distance=..1 ] run function aj:ghost_villager_a/zzz/summon/as_interaction/interaction
@@ -66,5 +66,6 @@ execute on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 1
 execute on passengers run data modify entity @s teleport_duration set value 1
 function aj:ghost_villager_a/zzz/summon/zzz/0 with storage animated_java:temp entry.data.interactions.interaction
+execute at @s run function aj:ghost_villager_a/zzz/summon/on_summon/rig
 tag @s remove aj.new
 execute on passengers run tag @s remove aj.new
