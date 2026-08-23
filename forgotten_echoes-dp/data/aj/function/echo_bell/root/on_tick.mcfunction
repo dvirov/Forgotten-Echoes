@@ -4,5 +4,3 @@ execute if entity @s[tag=aj.echo_bell.animation.repair.playing] run function aj:
 execute if entity @s[tag=aj.echo_bell.animation.breaking.playing] run function aj:echo_bell/animations/breaking/zzz/on_tick
 execute if entity @s[tag=aj.echo_bell.animation.broken.playing] run function aj:echo_bell/animations/broken/zzz/on_tick
 execute if entity @s[tag=aj.echo_bell.animation.normal.playing] run function aj:echo_bell/animations/normal/zzz/on_tick
-function aj:echo_bell/root/on_tick/transform_floating_entities
-execute on passengers run rotate @s ~ ~

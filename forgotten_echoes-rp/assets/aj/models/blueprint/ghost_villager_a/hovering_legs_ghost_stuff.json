@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "forgotten_echoes:item/ghost_villager_a",
+		"0": "forgotten_echoes:item/ghost_villager_a_color",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
@@ -20,27 +20,27 @@
 			},
 			"faces": {
 				"north": {
-					"uv": [6, 9, 8, 10.5],
+					"uv": [2, 11.25, 4, 12.75],
 					"texture": "#0"
 				},
 				"east": {
-					"uv": [7, 10.5, 8, 12],
+					"uv": [8, 10.25, 9, 11.75],
 					"texture": "#0"
 				},
 				"south": {
-					"uv": [9.5, 1.5, 11.5, 3],
+					"uv": [0, 11.25, 2, 12.75],
 					"texture": "#0"
 				},
 				"west": {
-					"uv": [11.5, 3, 12.5, 4.5],
+					"uv": [9, 10.25, 10, 11.75],
 					"texture": "#0"
 				},
 				"up": {
-					"uv": [5, 11.5, 3, 10.5],
+					"uv": [6, 12.5, 4, 11.5],
 					"texture": "#0"
 				},
 				"down": {
-					"uv": [7, 10.5, 5, 11.5],
+					"uv": [9.5, 7, 7.5, 8],
 					"texture": "#0"
 				}
 			}

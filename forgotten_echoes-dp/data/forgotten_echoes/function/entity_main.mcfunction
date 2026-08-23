@@ -7,5 +7,6 @@ execute if entity @s[scores={forgotten_echoes.calibrated_echo_bell.cooldown=1..}
 
 
 
-execute if entity @s[scores={forgotten_echoes.dialog_timer=0..},type=interaction] run function forgotten_echoes:npc_dialog/main
-#
+#execute if entity @s[scores={forgotten_echoes.dialog_timer=0..},type=interaction] at @s run scoreboard players add @s forgotten_echoes.dialog_timer 1
+
+

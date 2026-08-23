@@ -11,3 +11,4 @@ $data merge entity $(arm_r) {transformation: [-1f,0f,0f,-0.25f,0f,0.7314f,-0.682
 $data merge entity $(body) {transformation: [-1f,0f,0f,0f,0f,1f,0f,0.75f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(hovering_legs_ghost_stuff1) {transformation: [-1f,0f,0f,0f,0f,0.9903f,0.1392f,0.3765f,0f,0.1392f,-0.9903f,0.1374f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(hovering_legs_ghost_stuff) {transformation: [-1f,0f,0f,0f,0f,0.9994f,-0.0349f,0.75f,0f,-0.0349f,-0.9994f,0.125f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+execute unless entity @s[tag=aj.transforms_only] at @s run function aj:ghost_villager_a/animations/spawn/zzz/frames/120_root_function

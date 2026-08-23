@@ -14,10 +14,11 @@
 		"blueprint_id": "aj:echo_bell",
 		"render_box": [48, 48],
 		"target_minecraft_version": "26.2",
-		"resource_pack": "C:\\Users\\User\\Documents\\dvir\\minecraft\\datapacks\\forgotten_echoes\\forgotten_echoes-rp",
-		"data_pack": "C:\\Users\\User\\Documents\\dvir\\minecraft\\datapacks\\forgotten_echoes\\forgotten_echoes-dp",
+		"resource_pack": "C:\\Users\\User\\Documents\\dvir\\minecraft\\datapacks\\Forgotten Echoes\\forgotten_echoes-rp",
+		"data_pack": "C:\\Users\\User\\Documents\\dvir\\minecraft\\datapacks\\Forgotten Echoes\\forgotten_echoes-dp",
 		"on_summon_function": "execute at @s positioned 0. 0 0. rotated ~45 0 positioned ^ ^ ^-.5 align xz facing -.5 0 -.5 rotated ~-45 0 positioned as @s run tp @s ~ ~ ~ ~ ~",
-		"on_remove_function": "execute at @s run setblock ~ ~ ~ minecraft:air"
+		"on_remove_function": "execute at @s run setblock ~ ~ ~ minecraft:air",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -9903,7 +9904,7 @@
 			"override": false,
 			"length": 0.05,
 			"snapping": 20,
-			"selected": false,
+			"selected": true,
 			"saved": true,
 			"path": "",
 			"scope": 0,

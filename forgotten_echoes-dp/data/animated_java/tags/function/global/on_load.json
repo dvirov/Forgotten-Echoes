@@ -1,4 +1,4 @@
 {
 	"replace": false,
-	"values": ["aj:echo_bell/on_load", "aj:ghost_villager_a/on_load"]
+	"values": ["aj:echo_bell/on_load", "aj:ghost_villager_a/on_load", "re:echo_knight/on_load"]
 }

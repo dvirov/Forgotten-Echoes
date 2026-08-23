@@ -5,6 +5,6 @@ execute store result storage animated_java:temp args.id int 1 run scoreboard pla
 function animated_java:global/data_manager/read with storage animated_java:temp args
 data modify storage animated_java:temp args.uuid set from storage animated_java:temp entry.data.uuids_by_name.interaction
 function animated_java:global/remove/entity_stack_by_uuid with storage animated_java:temp args
-execute unless data storage animated_java:temp {entry:{data:{rig_hash: '822db7ed374e707cbae89903f4ac9bc8e298e52fc6a3bba0d2379ed5119aa04b'}}} run function animated_java:global/remove/outdated_rig
+execute unless data storage animated_java:temp {entry:{data:{rig_hash: '3b417dd703a51347d0cb2e58ceac195e70f6b637f3c9d97a01fdf09ff4032abb'}}} run function animated_java:global/remove/outdated_rig
 function aj:ghost_villager_a/remove/this/zzz/0 with storage animated_java:temp entry.data.uuids_by_name
 function animated_java:global/remove/entity_stack

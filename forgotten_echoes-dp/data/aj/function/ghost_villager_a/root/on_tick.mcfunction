@@ -7,9 +7,4 @@ execute if entity @s[tag=aj.ghost_villager_a.animation.idle.playing] run functio
 execute if entity @s[tag=aj.ghost_villager_a.animation.wave.playing] run function aj:ghost_villager_a/animations/wave/zzz/on_tick
 execute if entity @s[tag=aj.ghost_villager_a.animation.no.playing] run function aj:ghost_villager_a/animations/no/zzz/on_tick
 execute if entity @s[tag=aj.ghost_villager_a.animation.take_item.playing] run function aj:ghost_villager_a/animations/take_item/zzz/on_tick
-function aj:ghost_villager_a/root/on_tick/transform_floating_entities
-execute on passengers run rotate @s ~ ~
-execute store result storage forgotten_echoes:temp entity_id int 1 run scoreboard players get @s[tag=forgotten_echoes.waiting_for_input] forgotten_echoes.entity_id
-execute store result storage forgotten_echoes:temp timer int 1 run scoreboard players remove @s[tag=forgotten_echoes.waiting_for_input] forgotten_echoes.quest_timer 1
-execute at @s[tag=forgotten_echoes.waiting_for_input] run function forgotten_echoes:npc_dialog/modify_bossbar with storage forgotten_echoes:temp
-execute if score @s forgotten_echoes.quest_timer matches ..0 run function aj:ghost_villager_a/animations/despawn/play
+function aj:ghost_villager_a/root/tick_interactions with storage animated_java:temp entry.data.uuids_by_name

@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "forgotten_echoes:item/echo_knight_template",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 8, 9.5],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [-0.5, 24, 11]
+			},
+			"faces": {
+				"north": {
+					"uv": [4, 5.75, 4.375, 6.75],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [1, 12.875, 1.375, 13.875],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [3, 8.875, 3.375, 9.875],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [3.5, 7.5, 3.875, 8.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [4.375, 7.125, 4, 6.75],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [3.375, 9.875, 3, 10.25],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}
