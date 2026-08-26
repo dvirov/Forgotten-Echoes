@@ -5,9 +5,9 @@
         "weight": 3,
         "element": {
           "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "forgotten_echoes:test",
-          "override_liquid_settings": "apply_waterlogging",
+          "projection": "terrain_matching",
+          "location": "forgotten_echoes:city_center",
+          "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }
       }

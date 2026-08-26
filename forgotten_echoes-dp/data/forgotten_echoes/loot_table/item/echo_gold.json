@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": "Echo Gold Ingot",
+              "item_model": "forgotten_echoes:echo_gold",
+                "custom_data":{
+                    "id":"echo_gold_ingot"
+                },
+                "minecraft:consumable": {},
+                "rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

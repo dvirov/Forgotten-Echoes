@@ -1,4 +1,5 @@
 
+scoreboard objectives add forgotten_echoes.temp dummy
 scoreboard objectives add forgotten_echoes.entity_id dummy
 scoreboard objectives add forgotten_echoes.value dummy
 scoreboard objectives add forgotten_echoes.dialog_timer dummy

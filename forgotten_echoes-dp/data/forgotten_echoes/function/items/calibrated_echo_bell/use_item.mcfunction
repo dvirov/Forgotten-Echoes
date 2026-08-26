@@ -1,4 +1,3 @@
-say use
 advancement revoke @s only forgotten_echoes:trigger/use_calibrated_echo_bell
 
 execute unless score @s forgotten_echoes.calibrated_echo_bell.cooldown matches ..0 run return fail

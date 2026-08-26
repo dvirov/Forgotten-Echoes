@@ -11,18 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_name": "Calibrated Echo Bell",
-              "item_model": "bell",
+                "item_name": "Broken Stone Tool",
+              "item_model": "forgotten_echoes:broken_stone_tool",
                 "custom_data":{
-                    "id":"calibrated_echo_bell"
+                    "id":"broken_stone_tool"
                 },
-                "minecraft:consumable": {
-                  "consume_seconds": 9999,
-                  "animation": "none",
-                  "has_consume_particles": false
-                },
-                "rarity": "uncommon",
-                "!minecraft:food": {}
+                "minecraft:consumable": {},
+                "rarity": "uncommon"
               }
             }
           ]

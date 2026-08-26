@@ -9,3 +9,4 @@ execute store result storage animated_java:temp args.id int 1 run scoreboard pla
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
 function aj:ghost_villager_a/root/on_tick/transform_floating_entities
+execute unless entity @s[tag=aj.transforms_only] at @s run function aj:ghost_villager_a/animations/no/zzz/frames/0_root_function

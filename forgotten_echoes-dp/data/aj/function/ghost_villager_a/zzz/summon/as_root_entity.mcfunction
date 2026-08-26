@@ -12,7 +12,7 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:ghost_villager_a"
-data modify storage animated_java:temp entry.data.rig_hash set value "3b417dd703a51347d0cb2e58ceac195e70f6b637f3c9d97a01fdf09ff4032abb"
+data modify storage animated_java:temp entry.data.rig_hash set value "486bfad9c628aa73b78346ea496d1fa6db60483f5123e39630158a2b6ad3d153"
 tp @s ~ ~ ~ ~ ~
 summon minecraft:interaction ^0 ^0.1875 ^0 { Tags:["","aj.ghost_villager_a.entity","aj.ghost_villager_a.interaction","aj.ghost_villager_a.interaction.interaction","aj.ghost_villager_a.node","aj.ghost_villager_a.node.interaction","aj.global.entity","aj.global.interaction","aj.global.node","aj.global.node.interaction","aj.global.root.child","aj.global.root.child.interaction","aj.new"], response: false, width: 0.5f, height: 1.75f, }
 execute as @n[ type=minecraft:interaction, tag=aj.ghost_villager_a.interaction.interaction, tag=aj.new, distance=..1 ] run function aj:ghost_villager_a/zzz/summon/as_interaction/interaction

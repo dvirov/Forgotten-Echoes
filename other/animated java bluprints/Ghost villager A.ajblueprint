@@ -12,9 +12,11 @@
 	},
 	"blueprint_settings": {
 		"blueprint_id": "aj:ghost_villager_a",
+		"render_box": [48, 48],
 		"target_minecraft_version": "26.2",
 		"resource_pack": "C:\\Users\\User\\Documents\\dvir\\minecraft\\datapacks\\Forgotten Echoes\\forgotten_echoes-rp",
 		"data_pack": "C:\\Users\\User\\Documents\\dvir\\minecraft\\datapacks\\Forgotten Echoes\\forgotten_echoes-dp",
+		"on_remove_function": "kill @n[distance=..1,type=villager,tag=forgotten_echoes.echo_trader] \n",
 		"auto_update_rig_orientation": false
 	},
 	"elements": [
@@ -592,7 +594,7 @@
 				"response": false,
 				"on_interact_function": "function forgotten_echoes:npc_dialog/interact",
 				"on_attack_function": "",
-				"on_summon_function": "data remove entity @s CustomName\ntag @s add type1\ntag @s add forgotten_echoes.dialog0\n\nscoreboard players add @s forgotten_echoes.dialog_timer 1\n\n",
+				"on_summon_function": "function forgotten_echoes:forgotten_echoes/echo_name\ntag @s add type1\ntag @s add forgotten_echoes.dialog0\n\nscoreboard players add @s forgotten_echoes.dialog_timer 1\n\n",
 				"on_remove_function": "execute store result storage forgotten_echoes:temp entity_id int 1 run scoreboard players get @s forgotten_echoes.entity_id\nfunction forgotten_echoes:npc_dialog/remove_bossbar with storage forgotten_echoes:temp",
 				"on_tick_function": "execute if entity @s[tag=forgotten_echoes.waiting_for_input] run function forgotten_echoes:npc_dialog/type1/dialog_tick\n\n"
 			},
@@ -761,7 +763,12 @@
 				"variants": {}
 			},
 			"itemModelProperties": {
-				"tints": []
+				"tints": [
+					{
+						"type": "minecraft:constant",
+						"value": 0
+					}
+				]
 			},
 			"children": [],
 			"reset": false,
@@ -1005,7 +1012,20 @@
 			"color": 0,
 			"onSummonFunction": "",
 			"configs": {
-				"default": {},
+				"default": {
+					"on_apply_function": "",
+					"billboard": "center",
+					"override_brightness": false,
+					"sky_brightness": 0,
+					"block_brightness": 0,
+					"enchanted": false,
+					"glowing": false,
+					"override_glow_color": false,
+					"glow_color": "#ffffff",
+					"invisible": false,
+					"shadow_radius": 0,
+					"shadow_strength": 1
+				},
 				"variants": {}
 			},
 			"itemModelProperties": {
@@ -2227,7 +2247,7 @@
 							"channel": "function",
 							"data_points": [
 								{
-									"function": "function aj:ghost_villager_a/animations/idle/play",
+									"function": "function aj:ghost_villager_a/animations/idle/play\nattribute @n[distance=..1,type=villager,tag=forgotten_echoes.echo_trader] minecraft:scale base reset\nsay me\nrotate @s facing entity @p\n",
 									"execute_condition": "",
 									"repeat": false,
 									"repeat_frequency": 1
@@ -2235,6 +2255,23 @@
 							],
 							"uuid": "481b88f7-538c-11a6-dfcd-f6c2487092dd",
 							"time": 6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "function",
+							"data_points": [
+								{
+									"function": "",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8184b70b-dff5-279f-63d3-fcfc119f3671",
+							"time": 0,
 							"color": -1,
 							"interpolation": "linear",
 							"easing": "linear",
@@ -2251,7 +2288,7 @@
 			"override": false,
 			"length": 6,
 			"snapping": 20,
-			"selected": true,
+			"selected": false,
 			"saved": true,
 			"path": "",
 			"scope": 0,
@@ -4944,7 +4981,7 @@
 			"override": false,
 			"length": 1,
 			"snapping": 20,
-			"selected": false,
+			"selected": true,
 			"saved": true,
 			"path": "",
 			"scope": 0,
@@ -5381,6 +5418,46 @@
 					"type": "animated_java:interaction",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "function",
+							"data_points": [
+								{
+									"function": "function aj:ghost_villager_a/animations/idle/play_exclusive",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "fdda4b07-608c-e4fa-674e-0ada477d1115",
+							"time": 1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "function",
+							"data_points": [
+								{
+									"function": "playsound minecraft:entity.villager.no neutral @a ~ ~ ~",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "7bc66247-1366-fa5f-9cc5-a5f7589ddfe8",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
 				}
 			}
 		},
@@ -6964,6 +7041,10 @@
 					"type": "animated_java:interaction",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect"
 				}
 			}
 		}

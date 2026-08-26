@@ -3,3 +3,4 @@ $data merge entity $(nose) {transformation: [-1f,0f,0f,0f,0f,1f,0f,1.6563f,0f,0f
 $data merge entity $(headwear) {transformation: [-1f,0f,0f,0f,0f,1f,0f,1.5f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(eyelids) {transformation: [-1f,0f,0f,0f,0f,0.2f,0f,1.7563f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(head) {transformation: [-1f,0f,0f,0f,0f,1f,0f,1.5f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+execute unless entity @s[tag=aj.transforms_only] at @s run function aj:ghost_villager_a/animations/no/zzz/frames/20_root_function

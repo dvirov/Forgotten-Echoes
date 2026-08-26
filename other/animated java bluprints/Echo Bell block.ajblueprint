@@ -35,7 +35,7 @@
 			"config": {
 				"response": false,
 				"on_interact_function": "execute at @s run function forgotten_echoes:forgotten_echoes/click_on_bell",
-				"on_attack_function": "execute as @n[tag=aj.echo_bell.root] run function aj:echo_bell/remove/this\n",
+				"on_attack_function": "#execute as @n[tag=aj.echo_bell.root] run function aj:echo_bell/remove/this\n",
 				"on_summon_function": "data remove entity @s CustomName",
 				"on_remove_function": "",
 				"on_tick_function": ""
@@ -8439,7 +8439,7 @@
 			"override": false,
 			"length": 1.5,
 			"snapping": 20,
-			"selected": false,
+			"selected": true,
 			"saved": true,
 			"path": "",
 			"scope": 0,
@@ -9904,7 +9904,7 @@
 			"override": false,
 			"length": 0.05,
 			"snapping": 20,
-			"selected": true,
+			"selected": false,
 			"saved": true,
 			"path": "",
 			"scope": 0,

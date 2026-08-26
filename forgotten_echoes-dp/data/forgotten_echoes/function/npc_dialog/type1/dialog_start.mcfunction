@@ -17,7 +17,7 @@ execute if score @s forgotten_echoes.dialog_line matches 6 run tellraw @a[distan
 
 
 
-execute if score @s forgotten_echoes.dialog_line matches 7 run function forgotten_echoes:npc_dialog/type1/quest_prepare
+execute if score @s forgotten_echoes.dialog_line matches 6 run function forgotten_echoes:npc_dialog/type1/quest_prepare
 
 
 #execute if score @s forgotten_echoes.dialog_line matches 7 at @s run tag @n[tag=forgotten_echoes.root_etity,distance=0..] add forgotten_echoes.waiting_for_input
