@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/ghost_villager_a/arm_r",
+	"textures": {
+		"0": "aj:blueprint/ghost_villager_a/ghost_villager_a_variant_3"
+	}
+}

@@ -1,12 +1,115 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "aj:blueprint/ghost_villager_a/body",
-		"tints": [
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
 			{
-				"type": "minecraft:constant",
-				"value": 0
+				"when": "AJ_INTERNAL_EMPTY",
+				"model": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"when": "1",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/ghost_villager_a/1/body",
+					"tints": [
+						{
+							"type": "minecraft:constant",
+							"value": 0
+						}
+					]
+				}
+			},
+			{
+				"when": "2",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/ghost_villager_a/2/body",
+					"tints": [
+						{
+							"type": "minecraft:constant",
+							"value": 0
+						}
+					]
+				}
+			},
+			{
+				"when": "3",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/ghost_villager_a/3/body",
+					"tints": [
+						{
+							"type": "minecraft:constant",
+							"value": 0
+						}
+					]
+				}
+			},
+			{
+				"when": "4",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/ghost_villager_a/4/body",
+					"tints": [
+						{
+							"type": "minecraft:constant",
+							"value": 0
+						}
+					]
+				}
+			},
+			{
+				"when": "5",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/ghost_villager_a/5/body",
+					"tints": [
+						{
+							"type": "minecraft:constant",
+							"value": 0
+						}
+					]
+				}
+			},
+			{
+				"when": "6",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/ghost_villager_a/6/body",
+					"tints": [
+						{
+							"type": "minecraft:constant",
+							"value": 0
+						}
+					]
+				}
+			},
+			{
+				"when": "7",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/ghost_villager_a/7/body",
+					"tints": [
+						{
+							"type": "minecraft:constant",
+							"value": 0
+						}
+					]
+				}
 			}
-		]
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "aj:blueprint/ghost_villager_a/body",
+			"tints": [
+				{
+					"type": "minecraft:constant",
+					"value": 0
+				}
+			]
+		}
 	}
 }

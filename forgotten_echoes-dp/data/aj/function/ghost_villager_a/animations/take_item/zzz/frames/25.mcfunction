@@ -11,3 +11,5 @@ $data merge entity $(arm_r) {transformation: [-0.959f,0.2178f,-0.1814f,-0.2432f,
 $data merge entity $(body) {transformation: [-1f,0f,0f,0f,0f,1f,0f,0.7654f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(hovering_legs_ghost_stuff1) {transformation: [-1f,0f,0f,0f,0f,0.9044f,0.4266f,0.3923f,0f,0.4266f,-0.9044f,0.1017f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(hovering_legs_ghost_stuff) {transformation: [-1f,0f,0f,0f,0f,0.9982f,0.0608f,0.7654f,0f,0.0608f,-0.9982f,0.125f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(item_display) {transformation: [0f,0f,0f,0f,0f,0f,0f,1.1875f,0f,0f,0f,0.6653f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$execute unless entity @s[tag=aj.transforms_only] as $(interaction) positioned ^0 ^0.1875 ^0 rotated ~0 ~0 run function aj:ghost_villager_a/animations/take_item/zzz/frames/25_interaction_interaction

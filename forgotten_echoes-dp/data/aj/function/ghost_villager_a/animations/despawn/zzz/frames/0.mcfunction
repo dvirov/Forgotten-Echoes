@@ -11,9 +11,11 @@ $data merge entity $(arm_r) {transformation: [-1f,0f,0f,-0.25f,0f,0.7314f,-0.682
 $data merge entity $(body) {transformation: [-1f,0f,0f,0f,0f,1f,0f,0.75f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(hovering_legs_ghost_stuff1) {transformation: [-1f,0f,0f,0f,0f,0.9903f,0.1392f,0.3765f,0f,0.1392f,-0.9903f,0.1374f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(hovering_legs_ghost_stuff) {transformation: [-1f,0f,0f,0f,0f,0.9994f,-0.0349f,0.75f,0f,-0.0349f,-0.9994f,0.125f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(item_display) {transformation: [0f,0f,0f,0f,0f,0f,0f,1.1875f,0f,0f,0f,0.3125f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 data modify storage animated_java:temp entry.data merge value {"interactions":{"interaction":{"px":0,"py":0.1875,"pz":0,"ry":0,"rx":0}}}
 # Data Manager: Prepare for Read / Write
 execute store result storage animated_java:temp args.id int 1 run scoreboard players get @s aj.id
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
 function aj:ghost_villager_a/root/on_tick/transform_floating_entities
+$execute unless entity @s[tag=aj.transforms_only] as $(interaction) positioned ^0 ^0.1875 ^0 rotated ~0 ~0 run function aj:ghost_villager_a/animations/despawn/zzz/frames/0_interaction_interaction

@@ -1,0 +1,40 @@
+{
+  "anvil_cost": 99999,
+  "description": {
+    "text": "CEAPI Melee Check"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [],
+            "is_direct": true
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "ceapi:global/anim/melee_run"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ],
+    "minecraft:prevent_equipment_drop": {}
+  },
+  "max_cost": {
+    "base": 99999,
+    "per_level_above_first": 99999
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 99999,
+    "per_level_above_first": 99999
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:swords",
+  "weight": 1
+}

@@ -1,0 +1,1 @@
+function ceapi:global/commands/as_entity/1 {cmd:'item modify entity @s weapon.mainhand ceapi:heavy_off'}

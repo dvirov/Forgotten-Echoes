@@ -1,0 +1,51 @@
+{
+	"textures": {
+		"0": "aj:blueprint/echo_knight/texture",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [2, -0.05, 8],
+			"to": [14, 8.95, 16],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8, 4.45, 12]
+			},
+			"faces": {
+				"north": {
+					"uv": [10, 0, 11.5, 1.125],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"east": {
+					"uv": [1.5, 11.875, 2.5, 13],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [10.25, 6.5, 11.75, 7.625],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"west": {
+					"uv": [12, 3.125, 13, 4.25],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [13, 1, 11.5, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [1.5, 11.875, 0, 12.875],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

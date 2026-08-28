@@ -11,3 +11,4 @@ $data merge entity $(arm_r) {transformation: [-0.9872f,-0.1208f,-0.104f,-0.25f,0
 $data merge entity $(body) {transformation: [-1f,0f,0f,0f,0f,1f,0f,0.7553f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(hovering_legs_ghost_stuff1) {transformation: [-1f,0f,0f,0f,0f,0.866f,0.5f,0.383f,0f,0.5f,-0.866f,0.0918f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(hovering_legs_ghost_stuff) {transformation: [-1f,0f,0f,0f,0f,0.9962f,0.0872f,0.7553f,0f,0.0872f,-0.9962f,0.125f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(item_display) {transformation: [0f,0f,0f,0f,0f,0f,0f,1.1875f,0f,0f,0f,0.7359f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}

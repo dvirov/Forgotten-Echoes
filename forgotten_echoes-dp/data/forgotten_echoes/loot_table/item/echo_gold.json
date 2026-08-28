@@ -16,7 +16,7 @@
                 "custom_data":{
                     "id":"echo_gold_ingot"
                 },
-                "minecraft:consumable": {},
+                "!minecraft:consumable": {},
                 "rarity": "uncommon"
               }
             }

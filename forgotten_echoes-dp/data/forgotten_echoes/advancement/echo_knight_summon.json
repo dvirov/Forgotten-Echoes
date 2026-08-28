@@ -1,0 +1,20 @@
+{
+  "parent": "forgotten_echoes:enter_forgotten_city",
+  "display": {
+    "icon": {
+      "id": "minecraft:mace",
+      "components": {}
+    },
+    "title": "The knight of the echoes",
+    "description": "Summon the Echo knight",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "echo_knight_summon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

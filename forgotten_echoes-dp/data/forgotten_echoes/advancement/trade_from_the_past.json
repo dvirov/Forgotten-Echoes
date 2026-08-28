@@ -1,0 +1,31 @@
+{
+  "parent": "forgotten_echoes:get_echo_gold",
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_boat",
+      "components": {
+        "minecraft:item_model": "forgotten_echoes:1_head"
+      }
+    },
+    "title": "Trader of the ages",
+    "description": "Trade with echo trader",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trade_from_the_past": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:entity_tags": {
+            "any_of": [
+              "forgotten_echoes.echo_trader"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
