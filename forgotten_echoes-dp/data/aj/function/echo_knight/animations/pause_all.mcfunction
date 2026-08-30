@@ -3,6 +3,7 @@ tag @s remove aj.echo_knight.animation.spawn.playing
 tag @s remove aj.echo_knight.animation.idle.playing
 tag @s remove aj.echo_knight.animation.attack1.playing
 tag @s remove aj.echo_knight.animation.attack2.playing
+tag @s remove aj.echo_knight.animation.attack3.playing
 tag @s remove aj.echo_knight.animation.walk.playing
 tag @s remove aj.echo_knight.animation.hurt.playing
 tag @s remove aj.echo_knight.animation.death.playing

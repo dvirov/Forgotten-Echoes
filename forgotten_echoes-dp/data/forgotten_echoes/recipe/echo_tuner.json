@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    " SE",
+    "S  "
+  ],
+  "key": {
+    "E": "minecraft:echo_shard",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+                "item_name": "Echo Tuner",
+              "item_model": "forgotten_echoes:echo_tuner",
+                "custom_data":{
+                    "id":"echo_tuner"
+                },
+                "minecraft:consumable": {
+                  "animation": "none",
+                  "consume_seconds": 9999
+                },
+                "minecraft:use_effects": {
+                   "can_sprint": true,
+                   "speed_multiplier": 1,
+                   "interact_vibrations": false
+                },
+                "rarity": "common",
+                "max_stack_size": 1
+                
+              },
+    "count": 1
+  }
+}

@@ -2,3 +2,4 @@
 tp @s ~ ~ ~ ~ ~
 execute as @a[distance=..20] run ride @s dismount
 execute as @a[distance=..20] at @s run spreadplayers ~ ~ 1 1 true @s
+gamemode survival @a[distance=..20,gamemode=spectator]

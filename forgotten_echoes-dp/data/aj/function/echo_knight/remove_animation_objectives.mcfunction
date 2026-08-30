@@ -3,6 +3,7 @@ scoreboard objectives remove aj.spawn.frame
 scoreboard objectives remove aj.idle.frame
 scoreboard objectives remove aj.attack1.frame
 scoreboard objectives remove aj.attack2.frame
+scoreboard objectives remove aj.attack3.frame
 scoreboard objectives remove aj.walk.frame
 scoreboard objectives remove aj.hurt.frame
 scoreboard objectives remove aj.death.frame

@@ -175,7 +175,8 @@
 				"assets/aj/models/blueprint/echo_knight/shoulder_pad_right.json",
 				"assets/aj/models/blueprint/echo_knight/thumb_armor_left.json",
 				"assets/aj/models/blueprint/echo_knight/thumb_armor_left1.json",
-				"assets/aj/models/blueprint/echo_knight/thumb_armor_right.json"
+				"assets/aj/models/blueprint/echo_knight/thumb_armor_right.json",
+				"assets/aj/textures/blueprint/echo_knight/echo_knight_template.png"
 			]
 		},
 		"aj:ghost_villager_a": {

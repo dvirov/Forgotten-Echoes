@@ -3785,7 +3785,7 @@
 			"override": false,
 			"length": 3,
 			"snapping": 20,
-			"selected": false,
+			"selected": true,
 			"saved": true,
 			"path": "",
 			"scope": 0,
@@ -4673,6 +4673,29 @@
 							"time": 0,
 							"color": -1,
 							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "function",
+							"data_points": [
+								{
+									"function": "execute at @s run rotate @s facing entity @p\n",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6bb6ad9a-f9f9-e42c-50bd-9d2f1672b6c5",
+							"time": 1.7,
+							"color": -1,
 							"interpolation": "linear",
 							"easing": "linear",
 							"easingArgs": []
@@ -5996,7 +6019,7 @@
 			"override": false,
 			"length": 3,
 			"snapping": 20,
-			"selected": true,
+			"selected": false,
 			"saved": true,
 			"path": "",
 			"scope": 0,

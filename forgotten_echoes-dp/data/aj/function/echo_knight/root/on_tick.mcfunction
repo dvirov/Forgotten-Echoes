@@ -3,6 +3,7 @@ execute if entity @s[tag=aj.echo_knight.animation.spawn.playing] run function aj
 execute if entity @s[tag=aj.echo_knight.animation.idle.playing] run function aj:echo_knight/animations/idle/zzz/on_tick
 execute if entity @s[tag=aj.echo_knight.animation.attack1.playing] run function aj:echo_knight/animations/attack1/zzz/on_tick
 execute if entity @s[tag=aj.echo_knight.animation.attack2.playing] run function aj:echo_knight/animations/attack2/zzz/on_tick
+execute if entity @s[tag=aj.echo_knight.animation.attack3.playing] run function aj:echo_knight/animations/attack3/zzz/on_tick
 execute if entity @s[tag=aj.echo_knight.animation.walk.playing] run function aj:echo_knight/animations/walk/zzz/on_tick
 execute if entity @s[tag=aj.echo_knight.animation.hurt.playing] run function aj:echo_knight/animations/hurt/zzz/on_tick
 execute if entity @s[tag=aj.echo_knight.animation.death.playing] run function aj:echo_knight/animations/death/zzz/on_tick

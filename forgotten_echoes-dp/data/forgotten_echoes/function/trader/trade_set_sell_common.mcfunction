@@ -1,5 +1,5 @@
 
-execute store result score #rng forgotten_echoes.temp run random value 1..8
+execute store result score #rng forgotten_echoes.temp run random value 1..7
 
 execute if score #rng forgotten_echoes.temp matches 1 run data modify entity @s Offers.Recipes prepend value {maxUses:1,uses:0,xp:0,priceMultiplier:0f,specialPrice:0,demand:0,buy:{id:"minecraft:poisonous_potato",count:10,components:{item_name:"Echo Gold Ingot",item_model:"forgotten_echoes:echo_gold",custom_data:{id:"echo_gold_ingot"},"minecraft:consumable":{animation:"none",consume_seconds:9999},"minecraft:use_effects":{can_sprint:1b,speed_multiplier:1,interact_vibrations:0b},rarity:"uncommon"}},buyB:{id:amethyst_shard,count:1},sell:{id:"minecraft:poisonous_potato",count:5,components:{item_name:"Calibrated Echo Bell",item_model:"forgotten_echoes:calibrate_echo_bell",custom_data:{id:"calibrated_echo_bell"},"minecraft:consumable":{consume_seconds:9999,animation:"none",has_consume_particles:0b},rarity:"uncommon",}}}
 
@@ -15,5 +15,3 @@ execute if score #rng forgotten_echoes.temp matches 6 run data modify entity @s 
 
 execute if score #rng forgotten_echoes.temp matches 7 run data modify entity @s Offers.Recipes prepend value {maxUses:1,uses:0,xp:0,priceMultiplier:0f,specialPrice:0,demand:0,buy:{id:"minecraft:poisonous_potato",count:8,components:{item_name:"Echo Gold Ingot",item_model:"forgotten_echoes:echo_gold",custom_data:{id:"echo_gold_ingot"},"minecraft:consumable":{animation:"none",consume_seconds:9999},"minecraft:use_effects":{can_sprint:1b,speed_multiplier:1,interact_vibrations:0b},rarity:"uncommon"}},sell:{id:"minecraft:recovery_compass",count:1}}
 
-
-execute if score #rng forgotten_echoes.temp matches 8 run data modify entity @s Offers.Recipes prepend value {maxUses:1,uses:0,xp:0,priceMultiplier:0f,specialPrice:0,demand:0,buy:{id:"minecraft:poisonous_potato",count:8,components:{item_name:"Soul Fragment",item_model:"forgotten_echoes:eternal_soul",custom_data:{id:"soul_fragment"},"minecraft:consumable":{animation:"none",consume_seconds:9999},"minecraft:use_effects":{can_sprint:1b,speed_multiplier:1,interact_vibrations:0b},rarity:"uncommon"}},sell:{id:"minecraft:poisonous_potato",count:1,components:{item_name:"Eternal Soul",item_model:"forgotten_echoes:eternal_soul",custom_data:{id:"eternal_soul"},"minecraft:consumable":{animation:"none",consume_seconds:9999},"minecraft:use_effects":{can_sprint:1b,speed_multiplier:1,interact_vibrations:0b},rarity:"rare"}}}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": "Echo Tuner",
+              "item_model": "forgotten_echoes:echo_tuner",
+                "custom_data":{
+                    "id":"echo_tuner"
+                },
+                "minecraft:consumable": {
+                  "animation": "none",
+                  "consume_seconds": 9999
+                },
+                "minecraft:use_effects": {
+                   "can_sprint": true,
+                   "speed_multiplier": 1,
+                   "interact_vibrations": false
+                },
+                "rarity": "common",
+                "max_stack_size": 1
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
