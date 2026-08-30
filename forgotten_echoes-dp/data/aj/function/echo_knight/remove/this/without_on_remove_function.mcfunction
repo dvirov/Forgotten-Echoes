@@ -3,6 +3,13 @@
 execute store result storage animated_java:temp args.id int 1 run scoreboard players get @s aj.id
 # Data Manager: Read
 function animated_java:global/data_manager/read with storage animated_java:temp args
-execute unless data storage animated_java:temp {entry:{data:{rig_hash: '3b6e5b0608d2c6271e63461fc2771eaf1894fdeb1b7f35bb1b0426f3f5e469be'}}} run function animated_java:global/remove/outdated_rig
+function animated_java:global/remove/entity_stack_by_uuid with storage animated_java:temp entry.data.locators.locator_cinematic
+data modify storage animated_java:temp args.uuid set from storage animated_java:temp entry.data.uuids_by_name.interaction_mace
+function animated_java:global/remove/entity_stack_by_uuid with storage animated_java:temp args
+data modify storage animated_java:temp args.uuid set from storage animated_java:temp entry.data.uuids_by_name.interaction_hand
+function animated_java:global/remove/entity_stack_by_uuid with storage animated_java:temp args
+data modify storage animated_java:temp args.uuid set from storage animated_java:temp entry.data.uuids_by_name.interaction
+function animated_java:global/remove/entity_stack_by_uuid with storage animated_java:temp args
+execute unless data storage animated_java:temp {entry:{data:{rig_hash: '0c430893952b25b62c78c1d80743606977e6b7ec953875abfc2d4d1055a53049'}}} run function animated_java:global/remove/outdated_rig
 function aj:echo_knight/remove/this/zzz/0 with storage animated_java:temp entry.data.uuids_by_name
 function animated_java:global/remove/entity_stack

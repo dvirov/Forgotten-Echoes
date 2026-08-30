@@ -12,8 +12,28 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:echo_knight"
-data modify storage animated_java:temp entry.data.rig_hash set value "3b6e5b0608d2c6271e63461fc2771eaf1894fdeb1b7f35bb1b0426f3f5e469be"
+data modify storage animated_java:temp entry.data.rig_hash set value "0c430893952b25b62c78c1d80743606977e6b7ec953875abfc2d4d1055a53049"
 tp @s ~ ~ ~ ~ ~
+summon minecraft:interaction ^-0.84375 ^0.953125 ^1.3125 { Tags:["","aj.echo_knight.bone.arm_armor_right.decendant","aj.echo_knight.bone.arm_armor_right.decendant.interaction","aj.echo_knight.bone.arm_armor_right.tree","aj.echo_knight.bone.belly_armor.decendant","aj.echo_knight.bone.belly_armor.decendant.interaction","aj.echo_knight.bone.belly_armor.tree","aj.echo_knight.bone.chest_armor.decendant","aj.echo_knight.bone.chest_armor.decendant.interaction","aj.echo_knight.bone.chest_armor.tree","aj.echo_knight.bone.hand_right.decendant","aj.echo_knight.bone.hand_right.decendant.interaction","aj.echo_knight.bone.hand_right.tree","aj.echo_knight.bone.mace_ball.child","aj.echo_knight.bone.mace_ball.child.interaction","aj.echo_knight.bone.mace_ball.decendant","aj.echo_knight.bone.mace_ball.decendant.interaction","aj.echo_knight.bone.mace_ball.tree","aj.echo_knight.bone.mace_handle.decendant","aj.echo_knight.bone.mace_handle.decendant.interaction","aj.echo_knight.bone.mace_handle.tree","aj.echo_knight.bone.shoulder_pad_right.decendant","aj.echo_knight.bone.shoulder_pad_right.decendant.interaction","aj.echo_knight.bone.shoulder_pad_right.tree","aj.echo_knight.entity","aj.echo_knight.interaction","aj.echo_knight.interaction.interaction_mace","aj.echo_knight.node","aj.echo_knight.node.interaction_mace","aj.global.bone.arm_armor_right.decendant","aj.global.bone.arm_armor_right.decendant.interaction","aj.global.bone.arm_armor_right.tree","aj.global.bone.belly_armor.decendant","aj.global.bone.belly_armor.decendant.interaction","aj.global.bone.belly_armor.tree","aj.global.bone.chest_armor.decendant","aj.global.bone.chest_armor.decendant.interaction","aj.global.bone.chest_armor.tree","aj.global.bone.hand_right.decendant","aj.global.bone.hand_right.decendant.interaction","aj.global.bone.hand_right.tree","aj.global.bone.mace_ball.child","aj.global.bone.mace_ball.child.interaction","aj.global.bone.mace_ball.decendant","aj.global.bone.mace_ball.decendant.interaction","aj.global.bone.mace_ball.tree","aj.global.bone.mace_handle.decendant","aj.global.bone.mace_handle.decendant.interaction","aj.global.bone.mace_handle.tree","aj.global.bone.shoulder_pad_right.decendant","aj.global.bone.shoulder_pad_right.decendant.interaction","aj.global.bone.shoulder_pad_right.tree","aj.global.entity","aj.global.interaction","aj.global.node","aj.global.node.interaction_mace","aj.new"], response: false, width: 0.6875f, height: 0.6875f, }
+execute as @n[ type=minecraft:interaction, tag=aj.echo_knight.interaction.interaction_mace, tag=aj.new, distance=..4 ] run function aj:echo_knight/zzz/summon/as_interaction/interaction_mace
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.uuids_by_name.interaction_mace set from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.interactions.interaction_mace.uuid set from storage animated_java:gu out
+summon minecraft:interaction ^0.90625 ^0.9850175 ^-0.08853875 { Tags:["","aj.echo_knight.bone.arm_armor_left.decendant","aj.echo_knight.bone.arm_armor_left.decendant.interaction","aj.echo_knight.bone.arm_armor_left.tree","aj.echo_knight.bone.belly_armor.decendant","aj.echo_knight.bone.belly_armor.decendant.interaction","aj.echo_knight.bone.belly_armor.tree","aj.echo_knight.bone.chest_armor.decendant","aj.echo_knight.bone.chest_armor.decendant.interaction","aj.echo_knight.bone.chest_armor.tree","aj.echo_knight.bone.hand_left.child","aj.echo_knight.bone.hand_left.child.interaction","aj.echo_knight.bone.hand_left.decendant","aj.echo_knight.bone.hand_left.decendant.interaction","aj.echo_knight.bone.hand_left.tree","aj.echo_knight.entity","aj.echo_knight.interaction","aj.echo_knight.interaction.interaction_hand","aj.echo_knight.node","aj.echo_knight.node.interaction_hand","aj.global.bone.arm_armor_left.decendant","aj.global.bone.arm_armor_left.decendant.interaction","aj.global.bone.arm_armor_left.tree","aj.global.bone.belly_armor.decendant","aj.global.bone.belly_armor.decendant.interaction","aj.global.bone.belly_armor.tree","aj.global.bone.chest_armor.decendant","aj.global.bone.chest_armor.decendant.interaction","aj.global.bone.chest_armor.tree","aj.global.bone.hand_left.child","aj.global.bone.hand_left.child.interaction","aj.global.bone.hand_left.decendant","aj.global.bone.hand_left.decendant.interaction","aj.global.bone.hand_left.tree","aj.global.entity","aj.global.interaction","aj.global.node","aj.global.node.interaction_hand","aj.new"], response: false, width: 0.5f, height: 0.1875f, }
+execute as @n[ type=minecraft:interaction, tag=aj.echo_knight.interaction.interaction_hand, tag=aj.new, distance=..7 ] run function aj:echo_knight/zzz/summon/as_interaction/interaction_hand
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.uuids_by_name.interaction_hand set from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.interactions.interaction_hand.uuid set from storage animated_java:gu out
+summon minecraft:interaction ^0 ^0 ^0 { Tags:["","aj.echo_knight.entity","aj.echo_knight.interaction","aj.echo_knight.interaction.interaction","aj.echo_knight.node","aj.echo_knight.node.interaction","aj.global.entity","aj.global.interaction","aj.global.node","aj.global.node.interaction","aj.global.root.child","aj.global.root.child.interaction","aj.new"], response: false, width: 1.3125f, height: 2.0625f, }
+execute as @n[ type=minecraft:interaction, tag=aj.echo_knight.interaction.interaction, tag=aj.new, distance=..2 ] run function aj:echo_knight/zzz/summon/as_interaction/interaction
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.uuids_by_name.interaction set from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.interactions.interaction.uuid set from storage animated_java:gu out
+summon minecraft:item_display ^5.3125 ^6.375 ^5.5 {Tags:["","aj.echo_knight.entity","aj.echo_knight.locator","aj.echo_knight.locator.locator_cinematic","aj.echo_knight.node","aj.echo_knight.node.locator_cinematic","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.locator_cinematic","aj.global.root.child","aj.global.root.child.locator","aj.new"]}
+execute as @n[ type=minecraft:item_display, tag=aj.echo_knight.locator.locator_cinematic, tag=aj.new, distance=..11 ] run function aj:echo_knight/zzz/summon/as_locator/locator_cinematic
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.uuids_by_name.locator_cinematic set from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.locators.locator_cinematic.uuid set from storage animated_java:gu out
 execute on passengers if entity @s[tag=aj.echo_knight.node.belly] run function aj:echo_knight/zzz/summon/as_node/belly
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.belly set from storage animated_java:gu out
@@ -86,6 +106,9 @@ data modify storage animated_java:temp entry.data.uuids_by_name.arm_armor_right 
 execute on passengers if entity @s[tag=aj.echo_knight.node.shoulder_pad_right] run function aj:echo_knight/zzz/summon/as_node/shoulder_pad_right
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.shoulder_pad_right set from storage animated_java:gu out
+execute on passengers if entity @s[tag=aj.echo_knight.node.armed_armor_left] run function aj:echo_knight/zzz/summon/as_node/armed_armor_left
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.uuids_by_name.armed_armor_left set from storage animated_java:gu out
 execute on passengers if entity @s[tag=aj.echo_knight.node.finger_armor_left] run function aj:echo_knight/zzz/summon/as_node/finger_armor_left
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.finger_armor_left set from storage animated_java:gu out
@@ -107,9 +130,6 @@ data modify storage animated_java:temp entry.data.uuids_by_name.ghost_flames_arm
 execute on passengers if entity @s[tag=aj.echo_knight.node.arm_left] run function aj:echo_knight/zzz/summon/as_node/arm_left
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.arm_left set from storage animated_java:gu out
-execute on passengers if entity @s[tag=aj.echo_knight.node.arm_armor_left] run function aj:echo_knight/zzz/summon/as_node/arm_armor_left
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.arm_armor_left set from storage animated_java:gu out
 execute on passengers if entity @s[tag=aj.echo_knight.node.ghost_flames_shoulder_pad1] run function aj:echo_knight/zzz/summon/as_node/ghost_flames_shoulder_pad1
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.ghost_flames_shoulder_pad1 set from storage animated_java:gu out
@@ -227,6 +247,8 @@ data modify storage animated_java:temp entry.data.uuids_by_name.chest1 set from 
 execute on passengers if entity @s[tag=aj.echo_knight.node.ghost_belly] run function aj:echo_knight/zzz/summon/as_node/ghost_belly
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.ghost_belly set from storage animated_java:gu out
+function aj:echo_knight/zzz/summon/zzz/0 with storage animated_java:temp entry.data.locators.locator_cinematic
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:temp uuids
 function aj:echo_knight/zzz/set_default_pose
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
@@ -234,8 +256,12 @@ execute if data storage animated_java:temp args.variant run function aj:echo_kni
 execute if score #success aj.i matches 0 run return fail
 execute if data storage animated_java:temp args.animation run function aj:echo_knight/zzz/summon/animation_arg/process with storage animated_java:temp args
 execute if score #success aj.i matches 0 run return fail
+function aj:echo_knight/root/on_tick/transform_floating_entities
 execute on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 1
 execute on passengers run data modify entity @s teleport_duration set value 1
+function aj:echo_knight/zzz/summon/zzz/1 with storage animated_java:temp entry.data.interactions.interaction_mace
+function aj:echo_knight/zzz/summon/zzz/2 with storage animated_java:temp entry.data.interactions.interaction_hand
+function aj:echo_knight/zzz/summon/zzz/3 with storage animated_java:temp entry.data.interactions.interaction
 tag @s remove aj.new
 execute on passengers run tag @s remove aj.new

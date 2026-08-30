@@ -1,0 +1,349 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"1": "block/texture"
+	},
+	"elements": [
+		{
+			"from": [7.55455, -0.55368, 10.60061],
+			"to": [10.55455, 28.44632, 13.60061],
+			"rotation": {"x": -90, "y": 0, "z": 0, "origin": [9.05455, 13.94632, 12.10061]},
+			"faces": {
+				"north": {"uv": [2.5, 10.625, 2.875, 14.25], "texture": "#1"},
+				"east": {"uv": [2.5, 10.625, 2.875, 14.25], "texture": "#1"},
+				"south": {"uv": [2.5, 10.625, 2.875, 14.25], "texture": "#1"},
+				"west": {"uv": [2.5, 10.625, 2.875, 14.25], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4.55455, 9.54203, -11.39939],
+			"to": [13.55455, 18.54203, -2.39939],
+			"rotation": {"x": -90, "y": 0, "z": 0, "origin": [9.05455, 14.04203, -6.89939]},
+			"faces": {
+				"north": {"uv": [8.5, 1.25, 9.625, 2.375], "texture": "#1"},
+				"east": {"uv": [8.5, 1.25, 9.625, 2.375], "texture": "#1"},
+				"south": {"uv": [8.5, 1.25, 9.625, 2.375], "texture": "#1"},
+				"west": {"uv": [8.5, 1.25, 9.625, 2.375], "texture": "#1"},
+				"up": {"uv": [13.125, 3.125, 12, 2], "texture": "#1"},
+				"down": {"uv": [4, 12, 2.875, 13.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2.5, 13.04203, -7.89939],
+			"to": [15.5, 15.04203, -5.89939],
+			"rotation": {"x": -90, "y": 0, "z": 0, "origin": [9, 14.04203, -6.89939]},
+			"faces": {
+				"north": {"uv": [8.625, 12.875, 7, 13.125], "texture": "#1"},
+				"east": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"south": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"west": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"up": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"down": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 13.2731, -8],
+			"to": [17, 15.2731, -6],
+			"rotation": {"x": -29.83757, "y": -35.39626, "z": 44.71911, "origin": [9, 15.2731, -7]},
+			"faces": {
+				"north": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"east": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"south": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"west": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"up": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"down": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 13.2731, -8],
+			"to": [17, 15.2731, -6],
+			"rotation": {"x": 29.83757, "y": 35.39626, "z": 44.71911, "origin": [9, 15.2731, -7]},
+			"faces": {
+				"north": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"east": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"south": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"west": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"up": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"down": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.05455, 7.54203, -15],
+			"to": [10.05455, 9.54203, -2],
+			"rotation": {"x": -90, "y": 0, "z": 0, "origin": [9.05455, 12.04203, -10.39939]},
+			"faces": {
+				"north": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"east": {"uv": [8.625, 12.875, 7, 13.125], "texture": "#1"},
+				"south": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"west": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"up": {"uv": [7, 12.875, 8.625, 13.125], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [8.625, 13.125, 7, 12.875], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.05455, 18.54203, -14.89939],
+			"to": [10.05455, 20.54203, -12.89939],
+			"rotation": {"x": -90, "y": 0, "z": 0, "origin": [9.05455, 17.54203, -10.39939]},
+			"faces": {
+				"north": {"uv": [9, 11.375, 9.25, 11.625], "texture": "#1"},
+				"east": {"uv": [9, 11.375, 9.25, 11.625], "texture": "#1"},
+				"south": {"uv": [9, 11.375, 9.25, 11.625], "texture": "#1"},
+				"west": {"uv": [9, 11.375, 9.25, 11.625], "texture": "#1"},
+				"up": {"uv": [9, 11.625, 8.75, 11.375], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 13.2731, -8],
+			"to": [17, 15.2731, -6],
+			"rotation": {"x": 150.16243, "y": 35.39626, "z": 135.28089, "origin": [9, 15.2731, -7]},
+			"faces": {
+				"north": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"east": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"south": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"west": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"up": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"down": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 13.2731, -8],
+			"to": [17, 15.2731, -6],
+			"rotation": {"x": -150.16243, "y": -35.39626, "z": 135.28089, "origin": [9, 15.2731, -7]},
+			"faces": {
+				"north": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"east": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"south": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"west": {"uv": [8.75, 11.375, 9, 11.625], "texture": "#1"},
+				"up": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"},
+				"down": {"uv": [7, 12.875, 8.625, 13.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.55455, 12.94632, -4.34571],
+			"to": [11.55455, 14.94632, 0.65429],
+			"rotation": {"x": -90, "y": 0, "z": 0, "origin": [9.05455, 13.94632, -1.84571]},
+			"faces": {
+				"north": {"uv": [5.75, 7.75, 6.375, 8], "texture": "#1"},
+				"east": {"uv": [5.75, 7.75, 6.375, 8], "texture": "#1"},
+				"south": {"uv": [5.75, 7.75, 6.375, 8], "texture": "#1"},
+				"west": {"uv": [5.75, 7.75, 6.375, 8], "texture": "#1"},
+				"down": {"uv": [6.375, 7.125, 5.75, 7.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.70531, 12.29632, 24.55429],
+			"to": [11.70531, 16.29632, 28.55429],
+			"rotation": {"x": -90, "y": -45, "z": -90, "origin": [9.20531, 14.29632, 26.65429]},
+			"faces": {
+				"north": {"uv": [8.5, 2.375, 9, 2.875], "texture": "#1"},
+				"east": {"uv": [9, 2.875, 9.5, 2.375], "texture": "#1"},
+				"south": {"uv": [8.5, 2.375, 9, 2.875], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [9.75, 6.5, 10.25, 7], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [9.75, 6.5, 10.25, 7], "texture": "#1"},
+				"down": {"uv": [9.5, 2.375, 9, 2.875], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-1.25, 7.25, -4.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0.75, 7.25, -4.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [41.02, -28.88, 9.28],
+			"translation": [0.5, -5.5, -3.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [41.02, -28.88, 9.28],
+			"translation": [3.75, -5.5, -3.25]
+		},
+		"ground": {
+			"rotation": [38, 0, 0],
+			"translation": [0, 7.25, -4.75]
+		},
+		"gui": {
+			"rotation": [144.45, 29.69, 10.18],
+			"translation": [7.75, -2.25, 1.25]
+		},
+		"head": {
+			"rotation": [7.25, 0, 0],
+			"translation": [-1, -0.25, -16.25]
+		},
+		"fixed": {
+			"rotation": [90, -45, -90],
+			"translation": [-3.75, 3.25, 1.25],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"on_shelf": {
+			"rotation": [90, 0, -90],
+			"translation": [-4.25, 0.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	},
+	"groups": [
+		{
+			"name": "mace_handle2",
+			"origin": [26.05455, 17.82132, -17.34571],
+			"scope": 0,
+			"color": 0,
+			"configs": {
+				"default": {},
+				"variants": {}
+			},
+			"itemModelProperties": {
+				"tints": []
+			},
+			"children": [
+				0,
+				{
+					"name": "mace_ball1",
+					"origin": [53.0466, 61.3421, -8.44813],
+					"scope": 0,
+					"color": 0,
+					"configs": {
+						"default": {},
+						"variants": {}
+					},
+					"itemModelProperties": {
+						"tints": []
+					},
+					"children": [
+						1,
+						{
+							"name": "mace_spike7",
+							"origin": [78.5466, 82.28352, -18.84752],
+							"scope": 0,
+							"color": 0,
+							"configs": {
+								"default": {},
+								"variants": {}
+							},
+							"itemModelProperties": {
+								"tints": []
+							},
+							"children": [2]
+						},
+						{
+							"name": "mace_spike8",
+							"origin": [82.03076, 65.61521, -25.16336],
+							"scope": 0,
+							"color": 0,
+							"configs": {
+								"default": {},
+								"variants": {}
+							},
+							"itemModelProperties": {
+								"tints": []
+							},
+							"children": [3]
+						},
+						{
+							"name": "mace_spike9",
+							"origin": [82.03076, 65.61521, -25.16336],
+							"scope": 0,
+							"color": 0,
+							"configs": {
+								"default": {},
+								"variants": {}
+							},
+							"itemModelProperties": {
+								"tints": []
+							},
+							"children": [4]
+						},
+						{
+							"name": "mace_spike10",
+							"origin": [79.10115, 73.38413, -18.84752],
+							"scope": 0,
+							"color": 0,
+							"configs": {
+								"default": {},
+								"variants": {}
+							},
+							"itemModelProperties": {
+								"tints": []
+							},
+							"children": [5]
+						},
+						{
+							"name": "mace_spike11",
+							"origin": [79.10115, 78.88413, -18.84752],
+							"scope": 0,
+							"color": 0,
+							"configs": {
+								"default": {},
+								"variants": {}
+							},
+							"itemModelProperties": {
+								"tints": []
+							},
+							"children": [6]
+						},
+						{
+							"name": "mace_spike12",
+							"origin": [82.03076, 65.61521, -25.16336],
+							"scope": 0,
+							"color": 0,
+							"configs": {
+								"default": {},
+								"variants": {}
+							},
+							"itemModelProperties": {
+								"tints": []
+							},
+							"children": [7]
+						},
+						{
+							"name": "mace_spike13",
+							"origin": [82.03076, 65.61521, -25.16336],
+							"scope": 0,
+							"color": 0,
+							"configs": {
+								"default": {},
+								"variants": {}
+							},
+							"itemModelProperties": {
+								"tints": []
+							},
+							"children": [8]
+						}
+					]
+				},
+				{
+					"name": "mace_ball3",
+					"origin": [26.05455, 33.44632, 9.65429],
+					"scope": 0,
+					"color": 0,
+					"configs": {
+						"default": {},
+						"variants": {}
+					},
+					"itemModelProperties": {
+						"tints": []
+					},
+					"children": [9]
+				},
+				{
+					"name": "mace_handle3",
+					"origin": [26.05455, 13.44632, 9.65429],
+					"scope": 0,
+					"color": 0,
+					"configs": {
+						"default": {},
+						"variants": {}
+					},
+					"itemModelProperties": {
+						"tints": []
+					},
+					"children": [10]
+				}
+			]
+		}
+	]
+}

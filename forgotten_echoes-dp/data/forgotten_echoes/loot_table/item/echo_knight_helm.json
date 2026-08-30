@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "forgotten_echoes:echo_knight_helm",
+                "minecraft:item_name": "Echo Knight Helmet",
+                "minecraft:enchantable": {
+                  "value": 100
+                },
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:item.armor.equip_chain"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

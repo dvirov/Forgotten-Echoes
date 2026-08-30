@@ -1,4 +1,5 @@
 {
+  "parent": "forgotten_echoes:root",
   "display": {
     "icon": {
       "id": "minecraft:acacia_boat",
@@ -10,8 +11,7 @@
     "description": "enter the forgotten city",
     "frame": "task",
     "show_toast": true,
-    "hidden": false,
-    "background": "minecraft:block/sculk"
+    "hidden": false
   },
   "criteria": {
     "enter_forgotten_city": {

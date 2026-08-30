@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "aj:blueprint/echo_knight/texture",
+		"0": "forgotten_echoes:item/echo_knight_template",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
@@ -10,13 +10,13 @@
 	},
 	"elements": [
 		{
-			"from": [20.47594, 3.01987, 18.34689],
-			"to": [32, 4.37564, 19.70266],
+			"from": [20.47594, 1.6641, 18.34689],
+			"to": [32, 3.01987, 19.70266],
 			"rotation": {
 				"x": 27.16733,
 				"y": 55.80565,
 				"z": -55.9462,
-				"origin": [26.23797, 3.69776, 19.02477]
+				"origin": [26.23797, 2.34198, 19.02477]
 			},
 			"faces": {
 				"north": {
@@ -30,8 +30,7 @@
 				},
 				"south": {
 					"uv": [8.625, 12.875, 7, 13.125],
-					"texture": "#0",
-					"tintindex": 0
+					"texture": "#0"
 				},
 				"west": {
 					"uv": [8.75, 11.375, 9, 11.625],

@@ -16,7 +16,15 @@
                 "custom_data":{
                     "id":"echo_gold_ingot"
                 },
-                "!minecraft:consumable": {},
+                "minecraft:consumable": {
+                  "animation": "none",
+                  "consume_seconds": 9999
+                },
+                "minecraft:use_effects": {
+                   "can_sprint": true,
+                   "speed_multiplier": 1,
+                   "interact_vibrations": false
+                },
                 "rarity": "uncommon"
               }
             }

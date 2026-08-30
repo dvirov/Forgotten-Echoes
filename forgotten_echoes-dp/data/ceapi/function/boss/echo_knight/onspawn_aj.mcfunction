@@ -15,7 +15,7 @@ data modify storage ceapi:summondata args.type set value "boss"
 data modify storage ceapi:summondata args.path set value "boss/echo_knight"
 
 #the entity this will be (MODIFY)
-data modify storage ceapi:summondata args.entity set value "iron_golem"
+data modify storage ceapi:summondata args.entity set value "vindicator"
 #the max hp of this entity (MODIFY)
 data modify storage ceapi:summondata args.maxhp set value 350
 #the entitydata for this entity (MODIFY)

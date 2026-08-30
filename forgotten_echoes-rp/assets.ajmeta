@@ -34,7 +34,6 @@
 		"aj:echo_knight": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
-				"assets/aj/items/blueprint/echo_knight/arm_armor_left.json",
 				"assets/aj/items/blueprint/echo_knight/arm_armor_left1.json",
 				"assets/aj/items/blueprint/echo_knight/arm_armor_right.json",
 				"assets/aj/items/blueprint/echo_knight/arm_left.json",
@@ -42,6 +41,7 @@
 				"assets/aj/items/blueprint/echo_knight/arm_left2.json",
 				"assets/aj/items/blueprint/echo_knight/arm_right.json",
 				"assets/aj/items/blueprint/echo_knight/arm_right1.json",
+				"assets/aj/items/blueprint/echo_knight/armed_armor_left.json",
 				"assets/aj/items/blueprint/echo_knight/belly.json",
 				"assets/aj/items/blueprint/echo_knight/belly_armor.json",
 				"assets/aj/items/blueprint/echo_knight/chest.json",
@@ -105,7 +105,6 @@
 				"assets/aj/items/blueprint/echo_knight/thumb_armor_left.json",
 				"assets/aj/items/blueprint/echo_knight/thumb_armor_left1.json",
 				"assets/aj/items/blueprint/echo_knight/thumb_armor_right.json",
-				"assets/aj/models/blueprint/echo_knight/arm_armor_left.json",
 				"assets/aj/models/blueprint/echo_knight/arm_armor_left1.json",
 				"assets/aj/models/blueprint/echo_knight/arm_armor_right.json",
 				"assets/aj/models/blueprint/echo_knight/arm_left.json",
@@ -113,6 +112,7 @@
 				"assets/aj/models/blueprint/echo_knight/arm_left2.json",
 				"assets/aj/models/blueprint/echo_knight/arm_right.json",
 				"assets/aj/models/blueprint/echo_knight/arm_right1.json",
+				"assets/aj/models/blueprint/echo_knight/armed_armor_left.json",
 				"assets/aj/models/blueprint/echo_knight/belly.json",
 				"assets/aj/models/blueprint/echo_knight/belly_armor.json",
 				"assets/aj/models/blueprint/echo_knight/chest.json",
@@ -175,8 +175,7 @@
 				"assets/aj/models/blueprint/echo_knight/shoulder_pad_right.json",
 				"assets/aj/models/blueprint/echo_knight/thumb_armor_left.json",
 				"assets/aj/models/blueprint/echo_knight/thumb_armor_left1.json",
-				"assets/aj/models/blueprint/echo_knight/thumb_armor_right.json",
-				"assets/aj/textures/blueprint/echo_knight/texture.png"
+				"assets/aj/models/blueprint/echo_knight/thumb_armor_right.json"
 			]
 		},
 		"aj:ghost_villager_a": {

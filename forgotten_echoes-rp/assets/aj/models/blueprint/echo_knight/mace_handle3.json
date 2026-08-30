@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "aj:blueprint/echo_knight/texture",
+		"0": "forgotten_echoes:item/echo_knight_template",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
@@ -31,8 +31,7 @@
 				"south": {
 					"uv": [8.5, 2.375, 9, 2.875],
 					"rotation": 270,
-					"texture": "#0",
-					"tintindex": 0
+					"texture": "#0"
 				},
 				"west": {
 					"uv": [9.75, 6.5, 10.25, 7],

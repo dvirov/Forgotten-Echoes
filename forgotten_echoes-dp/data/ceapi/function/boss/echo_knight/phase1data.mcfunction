@@ -46,27 +46,27 @@ data modify storage ceapi:phasedata args.phase.max set value 1
 data modify storage ceapi:phasedata args.phase.transition_type set value "0of6"
 
 #range (spherical) to use close range attacks
-data modify storage ceapi:phasedata args.attacks.range_close set value 5
+data modify storage ceapi:phasedata args.attacks.range_close set value 3
 #range (spherical) to use far range attacks
-data modify storage ceapi:phasedata args.attacks.range_far set value 12
+data modify storage ceapi:phasedata args.attacks.range_far set value 6
 #mid-range is from close-far
 
 #which attacks should not disable movement
-data modify storage ceapi:phasedata args.attacks.walking set value [1]
+data modify storage ceapi:phasedata args.attacks.walking set value []
 
 #which attacks can be used at range close
-data modify storage ceapi:phasedata args.attacks.close set value [0,1]
+data modify storage ceapi:phasedata args.attacks.close set value [1]
 #which attacks can be used at range mid
-data modify storage ceapi:phasedata args.attacks.mid set value [1]
+data modify storage ceapi:phasedata args.attacks.mid set value [2]
 #which attacks can be used at range far
-data modify storage ceapi:phasedata args.attacks.far set value [1]
+data modify storage ceapi:phasedata args.attacks.far set value [2]
 
 #odds to 1 to trigger attack at range close
 data modify storage ceapi:phasedata args.attacks.oddsto1_close set value 50
 #odds to 1 to trigger attack at range mid
-data modify storage ceapi:phasedata args.attacks.oddsto1_mid set value 30
+data modify storage ceapi:phasedata args.attacks.oddsto1_mid set value 50
 #odds to 1 to trigger attack at range far
-data modify storage ceapi:phasedata args.attacks.oddsto1_far set value 10
+data modify storage ceapi:phasedata args.attacks.oddsto1_far set value 50
 
 #EVERYTHING BELOW THIS POINT IS REQUIRED IN EVERY PHASEXDATA FILE!
 #DO NOT CHANGE ANYTHING BELOW
