@@ -48,4 +48,3 @@ data modify storage animated_java:temp entry.data merge value {"locators":{"loca
 execute store result storage animated_java:temp args.id int 1 run scoreboard players get @s aj.id
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
-$execute unless entity @s[tag=aj.transforms_only] as $(interaction_hand) positioned ^0.9897358308 ^0.9991294676 ^0.0750639099 rotated ~2.6143489057 ~-9.2827426217 run function aj:echo_knight/animations/attack2/zzz/frames/48_interaction_interaction_hand

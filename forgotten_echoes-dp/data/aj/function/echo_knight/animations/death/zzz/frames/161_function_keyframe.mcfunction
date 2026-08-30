@@ -5,3 +5,5 @@
 function ceapi:global/commands/as_entity/1 {cmd:'data merge entity @s {Health:0f}'}
 # Remove the animated java model
 function aj:echo_knight/remove/this
+loot spawn ~ ~ ~ loot forgotten_echoes:gameplay/echo_knight_defeat
+advancement grant @a[distance=..20] only forgotten_echoes:echo_knight_defeat

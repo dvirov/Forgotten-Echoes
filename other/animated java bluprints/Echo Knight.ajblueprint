@@ -4721,7 +4721,7 @@
 			"mirror_uv": false,
 			"visibility": true,
 			"autouv": 0,
-			"isOpen": false,
+			"isOpen": true,
 			"primary_selected": false
 		},
 		{
@@ -5875,7 +5875,7 @@
 																},
 																{
 																	"uuid": "9a7a2100-e2ab-f6f5-5db2-e1376906f0de",
-																	"isOpen": false,
+																	"isOpen": true,
 																	"children": ["d33c7fb3-6f41-bdbd-4360-d7eabaad8895"]
 																},
 																{
@@ -15800,7 +15800,7 @@
 			"override": false,
 			"length": 1,
 			"snapping": 20,
-			"selected": false,
+			"selected": true,
 			"saved": true,
 			"path": "",
 			"scope": 0,
@@ -17790,7 +17790,7 @@
 									"x": "0",
 									"y": "0",
 									"z": "0",
-									"function": "execute positioned ~-.5 ~-.5 ~-.5 as @a[dx=0,dy=0,dz=0] run damage @s 8 mace_smash at ~ ~ ~\n\n",
+									"function": "execute positioned ~-.5 ~-.5 ~-.5 as @a[dx=0,dy=0,dz=0] run damage @s 20 mace_smash at ~ ~ ~\n\n",
 									"execute_condition": "",
 									"repeat": true,
 									"repeat_frequency": 1
@@ -19843,7 +19843,7 @@
 									"x": "0",
 									"y": "0",
 									"z": "0",
-									"function": "ride @r[distance=..1] mount @s",
+									"function": "ride @r[distance=..2] mount @s",
 									"execute_condition": "",
 									"repeat": true,
 									"repeat_frequency": 1
@@ -23193,7 +23193,7 @@
 			"override": false,
 			"length": 8,
 			"snapping": 20,
-			"selected": true,
+			"selected": false,
 			"saved": true,
 			"path": "",
 			"scope": 0,
@@ -26513,7 +26513,7 @@
 							"channel": "function",
 							"data_points": [
 								{
-									"function": "# LAST FRAME\n\n# Set entity's health to 0, instantly killing it due to {DeathTime:99s}\nfunction ceapi:global/commands/as_entity/1 {cmd:'data merge entity @s {Health:0f}'}\n# Remove the animated java model\nfunction aj:echo_knight/remove/this\nloot spawn ~ ~ ~ loot forgotten_echoes:gameplay/echo_knight_defeat\n",
+									"function": "# LAST FRAME\n\n# Set entity's health to 0, instantly killing it due to {DeathTime:99s}\nfunction ceapi:global/commands/as_entity/1 {cmd:'data merge entity @s {Health:0f}'}\n# Remove the animated java model\nfunction aj:echo_knight/remove/this\nloot spawn ~ ~ ~ loot forgotten_echoes:gameplay/echo_knight_defeat\nadvancement grant @a[distance=..20] only forgotten_echoes:echo_knight_defeat\n",
 									"execute_condition": "",
 									"repeat": false,
 									"repeat_frequency": 1

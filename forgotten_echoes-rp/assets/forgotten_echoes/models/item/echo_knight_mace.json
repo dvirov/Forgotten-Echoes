@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "block/texture"
+		"1": "forgotten_echoes:item/echo_knight_template"
 	},
 	"elements": [
 		{
@@ -156,12 +156,12 @@
 			"translation": [0.75, 7.25, -4.25]
 		},
 		"firstperson_righthand": {
-			"rotation": [41.02, -28.88, 9.28],
-			"translation": [0.5, -5.5, -3.25]
+			"rotation": [48.27, 6.75, 44.32],
+			"translation": [10.5, -5.5, -3.25]
 		},
 		"firstperson_lefthand": {
-			"rotation": [41.02, -28.88, 9.28],
-			"translation": [3.75, -5.5, -3.25]
+			"rotation": [36.63, -0.44, -33.18],
+			"translation": [4.75, -5.5, -3.25]
 		},
 		"ground": {
 			"rotation": [38, 0, 0],
@@ -169,7 +169,8 @@
 		},
 		"gui": {
 			"rotation": [144.45, 29.69, 10.18],
-			"translation": [7.75, -2.25, 1.25]
+			"translation": [0.75, 2.25, 1.25],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"head": {
 			"rotation": [7.25, 0, 0],
