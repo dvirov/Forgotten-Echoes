@@ -4687,7 +4687,7 @@
 							"channel": "function",
 							"data_points": [
 								{
-									"function": "execute at @s run rotate @s facing entity @p\n",
+									"function": "",
 									"execute_condition": "",
 									"repeat": false,
 									"repeat_frequency": 1

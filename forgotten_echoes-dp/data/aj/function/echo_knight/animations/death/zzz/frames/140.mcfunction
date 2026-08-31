@@ -30,7 +30,7 @@ $data merge entity $(ghost_legs) {transformation: [-1f,0f,0f,0f,0f,-0.0736f,0.99
 $data merge entity $(cover_leg_left) {transformation: [-0.8625f,0.4073f,0.3004f,-0.4688f,0.2454f,-0.1825f,0.9521f,0.4762f,0.4426f,0.8949f,0.0574f,0.5325f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(cover_leg_right) {transformation: [-0.8794f,-0.4194f,-0.2252f,0.4375f,-0.16f,-0.1851f,0.9696f,0.4762f,-0.4484f,0.8887f,0.0957f,0.5325f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(cover_leg_back) {transformation: [-1f,0f,0f,0f,0f,-0.3395f,0.9406f,0.8508f,0f,0.9406f,0.3395f,0.5161f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-data modify storage animated_java:temp entry.data merge value {"locators":{"locator_mace":{"px":-1.0867200835,"py":1.2300549659,"pz":1.1317188852,"ry":158.9676655527,"rx":45.7334005029}},"interactions":{"interaction_mace":{"px":-1.0867208993,"py":1.2300573648,"pz":1.1317165622,"ry":158.9676655527,"rx":45.7334005029}}}
+data modify storage animated_java:temp entry.data merge value {"locators":{"locator_mace":{"px":-1.0867200835,"py":1.2300549659,"pz":1.1317188852,"ry":158.9676655527,"rx":45.7334005029}},"interactions":{"interaction_mace":{"px":-1.0867208993,"py":1.2300573648,"pz":1.1317165622,"ry":140.0934693124,"rx":62.0492962852}}}
 # Data Manager: Prepare for Read / Write
 execute store result storage animated_java:temp args.id int 1 run scoreboard players get @s aj.id
 # Data Manager: Write

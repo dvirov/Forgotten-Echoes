@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "aj:blueprint/echo_knight/echo_knight_template",
+		"0": "forgotten_echoes:item/echo_knight_color",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
