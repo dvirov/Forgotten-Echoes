@@ -7,4 +7,4 @@ rotate @s facing entity @p eyes
 scoreboard players operation @s slowcast.steps = #maxSteps temp
 scoreboard players operation @s slowcast.duration = #duration temp
 
-function forgotten_echoes:forgotten_echoes/boss_atacks/echo_knight/temp_tick
+function forgotten_echoes:forgotten_echoes/boss_attacks/echo_knight/temp_tick

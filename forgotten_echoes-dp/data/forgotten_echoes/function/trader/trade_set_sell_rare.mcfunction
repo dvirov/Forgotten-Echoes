@@ -1,5 +1,5 @@
 
-execute store result score #rng forgotten_echoes.temp run random value 1..3
+execute store result score #rng forgotten_echoes.temp run random value 1..2
 
 
 
