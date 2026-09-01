@@ -9,3 +9,4 @@ scoreboard objectives add forgotten_echoes.calibrated_echo_bell.cooldown dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add slowcast.steps dummy
 scoreboard objectives add slowcast.duration dummy
+
