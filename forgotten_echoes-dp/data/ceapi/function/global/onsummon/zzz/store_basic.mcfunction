@@ -1,0 +1,1 @@
+$data merge storage ceapi:entities {$(id):{basic:{id:$(id),ModelUUID:"$(ModelUUID)",EntityUUID:"$(EntityUUID)",OwnerUUID:"$(OwnerUUID)",model_namespace:"$(model_namespace)",model:"$(model)",type:"$(type)",path:"$(path)"}}}

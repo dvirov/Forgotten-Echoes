@@ -16,4 +16,5 @@ data modify storage animated_java:temp entry.data merge value {"interactions":{"
 execute store result storage animated_java:temp args.id int 1 run scoreboard players get @s aj.id
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
+function aj:echo_bell/root/on_tick/transform_floating_entities
 execute unless entity @s[tag=aj.transforms_only] at @s run function aj:echo_bell/animations/ring_bell/zzz/frames/0_root_function

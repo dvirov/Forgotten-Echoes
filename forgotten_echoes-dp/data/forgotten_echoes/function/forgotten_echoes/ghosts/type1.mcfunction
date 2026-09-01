@@ -1,4 +1,0 @@
-
-summon mannequin ~ ~ ~ {immovable:true}
-
-

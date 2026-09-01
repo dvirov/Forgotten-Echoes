@@ -1,4 +1,4 @@
 {
 	"replace": false,
-	"values": ["animated_java:global/on_load", "forgotten_echoes:load"]
+	"values": ["animated_java:global/on_load", "ceapi:load", "ceapi:tools/uuid/zzz/load", "forgotten_echoes:load"]
 }

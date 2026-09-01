@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "use": {
+      "conditions": {
+        "player": [],
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {
+              "id": "calibrated_echo_bell"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "rewards": {
+    "function": "forgotten_echoes:items/calibrated_echo_bell/use_item"
+  }
+}

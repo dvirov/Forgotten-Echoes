@@ -1,0 +1,22 @@
+{
+  "parent": "forgotten_echoes:activate_echo_bell",
+  "display": {
+    "icon": {
+      "id": "minecraft:mace",
+      "components": {
+        "item_model": "forgotten_echoes:1_bell_block"
+      }
+    },
+    "title": "The call of the past",
+    "description": "Complete quest from the echoes",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "quest_completed": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

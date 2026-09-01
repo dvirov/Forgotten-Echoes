@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_boat",
+      "components": {
+        "minecraft:item_model": "forgotten_echoes:1_pack_icon"
+      }
+    },
+    "title": "Forgotten Echoes",
+    "description": "",
+    "frame": "task",
+    "show_toast": true,
+    "hidden": false,
+    "background": "minecraft:block/sculk"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

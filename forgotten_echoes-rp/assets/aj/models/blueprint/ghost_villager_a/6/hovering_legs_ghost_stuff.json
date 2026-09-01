@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/ghost_villager_a/hovering_legs_ghost_stuff",
+	"textures": {
+		"0": "aj:blueprint/ghost_villager_a/ghost_villager_a_variant_6"
+	}
+}

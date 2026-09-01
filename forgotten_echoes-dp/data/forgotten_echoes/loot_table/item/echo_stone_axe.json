@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": "Echo Stone Axe",
+                "item_model": "forgotten_echoes:echo_stone_axe",
+                "custom_data": {
+                  "id": "echo_stone_axe"
+                },
+                "rarity": "uncommon",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#minecraft:incorrect_for_stone_tool",
+                      "correct_for_drops": false
+                    },
+                    {
+                      "speed": 8.0,
+                      "blocks": "#minecraft:mineable/axe",
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "damage_per_block": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

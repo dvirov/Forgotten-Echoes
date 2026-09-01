@@ -6,8 +6,8 @@
         "minecraft:item_model": "dvirov:logo"
       }
     },
-    "title": "forgotten_echoes pack made by dvirov",
-    "description": "pack info here",
+    "title": "The Forgotten Echoes datapack made form CurseForge modjam (summer 2026)",
+    "description": "the pack is loaded",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

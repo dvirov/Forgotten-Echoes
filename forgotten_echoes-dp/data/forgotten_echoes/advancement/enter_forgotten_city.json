@@ -1,0 +1,33 @@
+{
+  "parent": "forgotten_echoes:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_boat",
+      "components": {
+        "minecraft:item_model": "recovery_compass"
+      }
+    },
+    "title": "The city that forgotten by all",
+    "description": "enter the forgotten city",
+    "frame": "task",
+    "show_toast": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_forgotten_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "structures": "forgotten_echoes:forgotten_city"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "forgotten_echoes:brush"
+    ]
+  }
+}

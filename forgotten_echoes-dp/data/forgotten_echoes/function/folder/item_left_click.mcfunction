@@ -1,3 +1,0 @@
-
-
-say left click

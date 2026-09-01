@@ -12,7 +12,7 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:echo_bell"
-data modify storage animated_java:temp entry.data.rig_hash set value "c9a10f9a0b6d93015c11c35eca2c28e876cf0dc7ae1e45ac50a41eff4d1e39b8"
+data modify storage animated_java:temp entry.data.rig_hash set value "fb5bc275c253fa202955a7a5bdb35d72255de97ec16bf4d130b12af5653b9801"
 tp @s ~ ~ ~ ~ ~
 summon minecraft:interaction ^0 ^0.0625 ^0 { Tags:["","aj.echo_bell.entity","aj.echo_bell.interaction","aj.echo_bell.interaction.interaction","aj.echo_bell.node","aj.echo_bell.node.interaction","aj.global.entity","aj.global.interaction","aj.global.node","aj.global.node.interaction","aj.global.root.child","aj.global.root.child.interaction","aj.new"], response: false, width: 1.00625f, height: 0.9375f, }
 execute as @n[ type=minecraft:interaction, tag=aj.echo_bell.interaction.interaction, tag=aj.new, distance=..1 ] run function aj:echo_bell/zzz/summon/as_interaction/interaction

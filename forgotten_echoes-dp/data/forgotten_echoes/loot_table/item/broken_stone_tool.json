@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": "Broken Stone Tool",
+              "item_model": "forgotten_echoes:broken_stone_tool",
+                "custom_data":{
+                    "id":"broken_stone_tool"
+                },
+                "minecraft:consumable": {
+                  "animation": "none",
+                  "consume_seconds": 9999
+                },
+                "minecraft:use_effects": {
+                   "can_sprint": true,
+                   "speed_multiplier": 1,
+                   "interact_vibrations": false
+                },
+                "rarity": "uncommon"
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

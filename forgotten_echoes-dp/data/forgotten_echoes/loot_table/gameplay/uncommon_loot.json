@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "forgotten_echoes:item/broken_stone_tool",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "forgotten_echoes:item/calibrated_echo_bell",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "forgotten_echoes:item/echo_gold",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

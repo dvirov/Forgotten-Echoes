@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/ghost_villager_a/bodywear",
+	"textures": {
+		"0": "aj:blueprint/ghost_villager_a/ghost_villager_a_variant_1"
+	}
+}

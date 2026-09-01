@@ -23,6 +23,7 @@
             "echos.code-workspace": true,
             "forgotten_echoes.code-workspace": true
         },
-        "hidefiles.selectedProfile": "Strict"
+        "hidefiles.selectedProfile": "Strict",
+        "explorer.compactFolders": false
     }
 }
